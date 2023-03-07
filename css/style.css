@@ -643,7 +643,7 @@ body .btn-one:hover {
 
 
 .blog-company {
-  background: #ffffff;
+  background: #F4F5F9;
 }
 
 .blog {
@@ -1360,6 +1360,13 @@ Video Area CSS
 
 
 /* --------------- develop-lang --------------- */
+
+.develop-lang {
+  background-color: #fff;
+
+}
+
+
 .develop .content .img {
   background-color: #fff;
   padding: 30px;
