@@ -1,0 +1,535 @@
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+    /* overflow-x: hidden; */
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  overflow-x: hidden;
+}
+
+  .hero-banner .illustration-holder {
+    top: 15%;
+    right: 3%;
+    width: 42vw;
+  }
+  .mighty-bookmakers .bk-card .bk-card_btn_1 {
+    font-size: 12px;
+  }
+  .mighty-bookmakers .bk-card .bk-card_btn_2 {
+    padding: 4px 12px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+    /* overflow-x: hidden; */
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  overflow-x: hidden;
+}
+  .hero-banner .hero-heading {
+    font-size: 76px;
+  }
+  .title-style-one .main-title {
+    font-size: 52px;
+  }
+  .newsletter-content h2 {
+    font-size: 58px;
+  }
+  .title-style-two .main-title {
+    font-size: 54px;
+  }
+  .hero-banner {
+    padding-top: 180px;
+    padding-bottom: 240px;
+  }
+  .hero-banner .illustration-holder {
+    top: 15%;
+    right: 3%;
+    width: 42vw;
+  }
+  .seoprojects-banner-create.slide .content-slide {   
+    right: -1%;
+  }
+  .mighty-bookmakers .mighty-bookmakers_in_left {
+    width: 50%;
+  }
+  .mighty-bookmakers .mighty-bookmakers_in_right {
+    width: 50%;
+  }
+  
+}
+
+@media (max-width: 1199px) {
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+    /* overflow-x: hidden; */
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  overflow-x: hidden;
+}
+  .text-lg {
+    font-size: 20px;
+    line-height: 1.7em;
+  }
+
+  .feature-mightytips .screen-holder .round-bg {
+    animation: none;
+    transform: scale(0.7);
+  }
+
+
+
+  .feature-mightytips .screen-holder {
+    width: 90%;
+    margin: 0 auto;
+    height: 450px;
+  }
+  .main-menu {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .main-menu.menu {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main-menu {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .main-menu .req-demo-btn {
+    font-size: 17px;
+    padding: 0 20px;
+    line-height: 48px;
+  }
+  .title-style-one .main-title {
+    font-size: 38px;
+    line-height: 1.25em;
+  }
+  .newsletter-content h2 {
+    font-size: 50px;
+  }
+  .title-style-two .main-title {
+    font-size: 34px;
+    line-height: 1.18em;
+  }
+  .title-style-one .sub-title {
+    font-size: 18px;
+  }
+  .block-style-two ul.list-item li {
+    font-size: 18px;
+  }
+  .counter-block .main-count {
+    font-size: 42px;
+  }
+  .counter-block p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .country-logo {
+    margin-top: 10px;
+  }
+  .country-logo a {
+    height: 62px;
+    padding: 0 20px;
+  }
+  .country-logo a img {
+    max-width: 80%;
+  }
+  .footer .subscribe-form form {
+    height: 60px;
+  }
+  .footer .subscribe-form form button {
+    width: 120px;
+    font-size: 17px;
+  }
+  .footer .subscribe-form form input {
+    padding: 0 130px 0 15px;
+    font-size: 16px;
+  }
+  /* .blog-meta .post-data {
+    padding: 15px 0 0;
+  } */
+  .title-style-two .sub-title {
+    font-size: 18px;
+    padding-top: 5px;
+  }
+  .contact-section .address-block-two .icon {
+    width: 70px;
+    height: 70px;
+  }
+  .contact-section .address-block-two .icon img {
+    width: 33px;
+  }
+  .contact-section .address-block-two .title {
+    font-size: 20px;
+    padding: 15px 0 10px;
+  }
+  .contact-section .address-block-two p {
+    font-size: 17px;
+  }
+  .contact-section .title-style-one .main-title {
+    margin-bottom: 20px !important;
+  }
+  .newsletter-content h2 {
+    margin-bottom: 20px !important;
+  }
+  .form-style .form-title {
+    font-size: 35px;
+  }
+  .form-style form input {
+    height: 55px;
+  }
+  .form-style form textarea {
+    height: 170px;
+  }
+  .user-data-form .input-group-meta input {
+    height: 55px;
+    padding: 0 45px 0 15px;
+    font-size: 15px;
+  }
+  .user-data-form .input-group-meta .placeholder_icon {
+    height: 55px;
+  }
+  .user-data-form .input-group-meta .placeholder_icon span:before {
+    top: 14px;
+  }
+  .contact-for-us {
+    padding-bottom: 20px;
+  }
+  .contact-for-us .form-title {
+    font-size: 35px;
+    text-align: left;
+  }
+  .contact-for-us-map {
+    padding-bottom: 20px;
+  }
+  .contact-for-us-map .form-title {
+    font-size: 35px;
+    text-align: left;
+  }
+  .seoprojects-banner-create.slide .content-slide {
+    /* right: -9.5%; */
+    right: -5%;
+  }
+
+
+.services-image img {
+  padding-top: 40px;
+  width: 100%;
+}
+.mighty-bookmakers .mighty-bookmakers_in_left {
+  width: 100%;
+}
+
+.mighty-bookmakers .mighty-bookmakers_in_right {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-banner .hero-heading {
+    font-size: 60px;
+    line-height: 1.16em;
+  }
+  .hero-banner {
+    padding-bottom: 240px;
+  }
+  .hero-banner .illustration-holder {
+    top: 19%;
+    right: 4%;
+    width: 42vw;
+  }
+  .services-tab .nav .nav-link {
+    font-size: 16px;
+  }
+  .services-tab .nav {
+    background: 0 0;
+  }
+  .services-tab .nav .nav-link {
+    padding: 2px 15px;
+  }
+  .services-tab .nav .nav-link.active {
+    background: var(--prime-one);
+    border-color: transparent;
+  }
+  .mighty-bookmakers .mighty-bookmakers_in {
+    display: block;
+  }
+  .mighty-bookmakers .mighty-bookmakers_in_left {
+    width: 100%;
+  }
+  .mighty-bookmakers .mighty-bookmakers_in_right {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  body p {
+    font-size: 19px;
+    line-height: 1.7em;
+  }
+  .partners .content .img {
+
+    padding: 35px;
+    text-align: center;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 5px;
+    height: 110px; }
+
+  .feature-mightytips .screen-holder {
+    width: 100%;
+    margin: 0;
+    height: 400px;
+  }
+  .feature-mightytips .screen-holder .round-bg {
+    transform: scale(0.7);
+    animation: none;
+  }
+  .feature-seo .screen-holder {
+    width: 100%;
+    margin: 0;
+    height: 400px;
+  }
+  .feature-seo .screen-holder .round-bg {
+    transform: scale(0.7);
+    animation: none;
+  }
+  .main-menu.sticky-menu.fixed {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .hero-banner .hero-heading {
+    font-size: 45px;
+    margin-bottom: 22px;
+  }
+  body .btn-one {
+    line-height: 50px;
+    font-size: 17px;
+    padding: 0 35px;
+  }
+  .footer .subscribe-area {
+    margin-bottom: 65px;
+  }
+  .footer .footer-intro p {
+    margin: 15px 0;
+  }
+  .footer .bottom-footer {
+    margin-top: 0;
+  }
+  .footer .bottom-footer .footer-nav a {
+    margin: 0 8px;
+    line-height: initial;
+  }
+  .hero-banner {
+    padding: 150px 0 400px;
+  }
+  .map-area .mapouter {
+    height: 300px;
+  }
+  .seoprojects-banner-create.slide .content-slide .swiper-container .swiper-wrapper .swiper-slide .swiper-container-vertical {
+    height: 540px;
+  }
+  .seoprojects-banner-create.slide .content-slide .swiper-container .swiper-wrapper .swiper-slide .swiper-container-vertical img {
+    width: 70%;
+  }
+
+  .mighty-bookmakers {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-banner .illustration-holder {
+    top: 19%;
+    right: 1%;
+    width: 44vw;
+  }
+  .seoprojects-banner-create.slide .content-slide {
+    display: none;
+  }
+  .mighty-bookmakers .slick-center .bk-card {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .mighty-bookmakers .slick-list {
+    padding: 0px 0 !important;
+  }
+  .go-top {
+    width: 35px;
+    height: 45px;
+    line-height: 40px;
+  }
+  .go-top i {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  .title-style-one .main-title {
+    font-size: 34px;
+    line-height: 1.25em;
+  }
+  .title-style-one .main-subtitle {
+    font-size: 24px;
+}
+
+.projects-meta .blog-title h4 {
+  font-size: 24px;
+}
+.mighty-bookmakers {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+
+  .mighty-bookmakers .bk-card::before {
+    box-shadow: none;
+  }
+
+  .mighty-bookmakers .slick-center .bk-card {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  .hero-banner .illustration-holder .shape-one {
+    width: 100%;
+    left: 0px;    
+  }
+
+  .hero-banner {
+    padding: 150px 0 450px;
+  }
+
+
+
+  .seoprojects-banner-create.slide .content-slide {
+    display: none;    
+  }
+  .hero-banner .illustration-holder {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    width: 100%;
+    margin: 80px auto 0;
+    max-width: 470px;
+    padding: 0 10px;
+  }
+
+  .address-block-one.border-right {
+    border-right: none;
+    border-bottom: 1px solid #dfeaf9;
+  }
+  .footer .subscribe-form {
+    max-width: 100%;
+  }
+  .career-item {
+    padding: 20px;
+  }
+  .career-item .career-content h3 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .career-item .career-content .list li {
+    margin-bottom: 10px;
+  }
+  .career-item .career-content .list li:last-child {
+    margin-bottom: 0;
+  }
+  .career-item .career-btn {
+    text-align: start !important;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .video-area {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+  }
+  .video-view-content .video-btn {
+    width: 70px;
+    height: 70px;
+    line-height: 80px;
+    font-size: 50px;
+  }
+.mighty-bookmakers .slick-center .bk-card {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.mighty-bookmakers .slick-list {
+  padding: 0px 0 !important;
+}
+.newsletter-content h2 {
+  font-size: 45px;
+}
+
+.subscribe-popup {
+  padding: 80px 20px 20px 20px;
+}
+.subscribe-thumb {
+padding: 60px 20px 20px 20px;
+}
+
+.go-top {
+  width: 35px;
+  height: 45px;
+  line-height: 40px;
+}
+.go-top i {
+  font-size: 22px;
+}
+
+}
+
+@media (max-width: 575px) {
+.container {
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+}
+  .footer .footer-title {
+    font-size: 22px;
+    margin-bottom: 6px;
+  }
+  .footer .footer-nav-link a {
+    line-height: 40px;
+    font-size: 16px;
+  }
+  .block-style-two .nav-tabs button {
+    font-family: "inter-regular";
+  }
+}
