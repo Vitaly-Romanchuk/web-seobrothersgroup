@@ -3733,6 +3733,12 @@ background-color: #F4F5F9;
 
 }
 
+.img-company {
+  cursor: pointer;
+}
+
+
+
 /* .gmap_canvas:hover .icon {
   opacity: 1;
   transition: 0.3s;
