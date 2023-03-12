@@ -11,13 +11,37 @@
   };
 
   $(function () {   
-
+    isotopInit();
     slickInit();
     AOS.init();
     AOS.init({disable: 'mobile'});
-
-
   });
+
+  function isotopInit() {
+    if ($.exists('.sb-isotop')) {
+      $('.sb-isotop').isotope({
+        itemSelector: '.sb-isotop_item',
+        transitionDuration: '0.60s',
+        percentPosition: true,
+        masonry: {
+          columnWidth: '.sb-grid_sizer',
+        },
+      });
+      /* Active Class of Portfolio*/
+      $('.sb-isotop_filter ul li').on('click', function (event) {
+        $(this).siblings('.active').removeClass('active');
+        $(this).addClass('active');
+        event.preventDefault();
+      });
+      /*=== Portfolio filtering ===*/
+      $('.sb-isotop_filter ul').on('click', 'a', function () {
+        var filterElement = $(this).attr('data-filter');
+        $('.sb-isotop').isotope({
+          filter: filterElement,
+        });
+      });
+    }
+  }
 
 
   (function (i) {
