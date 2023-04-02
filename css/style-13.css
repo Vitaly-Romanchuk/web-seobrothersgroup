@@ -3354,7 +3354,7 @@ font-family: inter-semibold;
 
 @media (max-width: 991px) {
   .banner-app-work {
-    background: url(../images/work-page/0-mobile.png);
+    background: url(../images/work-page/ontario-casino-mobile.jpg);
     height: 100%;
     background-position-x: 80%;
   }
@@ -3428,7 +3428,7 @@ font-family: inter-semibold;
 
 @media (max-width: 767px) {
   .banner-app-work {
-    background: url(../images/work-page/0-mobile.jpg);
+    background: url(../images/work-page/ontario-casino-mobile.jpg);
     height: 100%;
     background-position-x: 75%;
   }
