@@ -222,7 +222,7 @@ body .btn-one:hover {
   padding-bottom: 35px;
   transition: all 0.4s ease-out;
 }
-.main-menu_white {
+.main-menu_2 {
   background-color:#1B1D1F;
   position: absolute;
   z-index: 99;
@@ -241,7 +241,7 @@ body .btn-one:hover {
   background: #fff;
   box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.1);
 }
-.main-menu_white.sticky-menu.fixed {
+.main-menu_2.sticky-menu.fixed {
   position: fixed;
   z-index: 990;
   padding-top: 5px;
@@ -250,13 +250,13 @@ body .btn-one:hover {
 }
 
 @media (max-width: 767px) {
-  .main-menu_white {
+  .main-menu_2 {
     padding-top: 20px;
     padding-bottom: 20px;
   }
 }
 @media (max-width: 767px) {
-  .main-menu_white.sticky-menu.fixed {
+  .main-menu_2.sticky-menu.fixed {
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -274,7 +274,7 @@ body .btn-one:hover {
   border: 1px solid var(--prime-two);
   border-radius: 50px;
 }
-.main-menu_white .req-demo-btn {
+.main-menu_2 .req-demo-btn {
   margin-left: 30px;
   font-family: "inter-semibold";
   font-size: 18px;
@@ -303,7 +303,7 @@ body .btn-one:hover {
   background: var(--prime-two);
   border-color: var(--prime-two);
 }
-.main-menu_white.menu .req-demo-btn:hover {
+.main-menu_2.menu .req-demo-btn:hover {
   background: var(--prime-two);
   border-color: var(--prime-two);
 }
@@ -311,7 +311,7 @@ body .btn-one:hover {
   background: rgba(0, 7, 20, 0.78);
   backdrop-filter: saturate(180%) blur(20px);
 }
-.main-menu_white.menu.sticky-menu.fixed {
+.main-menu_2.menu.sticky-menu.fixed {
   background: rgba(17, 17, 17, 0.82);
   backdrop-filter: saturate(180%) blur(20px);
 }
@@ -4556,6 +4556,7 @@ align-items: center;
     flex-wrap: wrap;
   }
   .sites ul li {
+    padding-bottom: 20px !important;
     padding-left: 20px !important;
     padding-right: 20px !important;
     max-width: 40%;
