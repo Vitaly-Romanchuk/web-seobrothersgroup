@@ -79,7 +79,7 @@
   color: var(--prime-one);
 }
 
-/*----- For Mobile ----*/
+/*----- for mobile ----*/
 @media screen and (max-width: 991px) {
   .navbar {
     padding: 0;

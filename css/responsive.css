@@ -39,9 +39,9 @@
   .hero-banner .hero-heading {
     font-size: 76px;
   }
-  .title-style-one .main-title {
+  /* .title-style-one .main-title {
     font-size: 52px;
-  }
+  } */
   .newsletter-content h2 {
     font-size: 58px;
   }
@@ -166,34 +166,8 @@
     font-size: 18px;
     padding-top: 5px;
   }
-  .contact-section .address-block-two .icon {
-    width: 70px;
-    height: 70px;
-  }
-  .contact-section .address-block-two .icon img {
-    width: 33px;
-  }
-  .contact-section .address-block-two .title {
-    font-size: 20px;
-    padding: 15px 0 10px;
-  }
-  .contact-section .address-block-two p {
-    font-size: 17px;
-  }
-  .contact-section .title-style-one .main-title {
-    margin-bottom: 20px !important;
-  }
   .newsletter-content h2 {
     margin-bottom: 20px !important;
-  }
-  .form-style .form-title {
-    font-size: 35px;
-  }
-  .form-style form input {
-    height: 55px;
-  }
-  .form-style form textarea {
-    height: 170px;
   }
   .user-data-form .input-group-meta input {
     height: 55px;
@@ -205,20 +179,6 @@
   }
   .user-data-form .input-group-meta .placeholder_icon span:before {
     top: 14px;
-  }
-  .contact-for-us {
-    padding-bottom: 20px;
-  }
-  .contact-for-us .form-title {
-    font-size: 35px;
-    text-align: left;
-  }
-  .contact-for-us-map {
-    padding-bottom: 20px;
-  }
-  .contact-for-us-map .form-title {
-    font-size: 35px;
-    text-align: left;
   }
   .seoprojects-banner-create.slide .content-slide {
     /* right: -9.5%; */
@@ -311,6 +271,24 @@
     justify-content: center;
     margin: 5px;
     height: 110px; }
+
+
+    .partners-main .content .img {
+
+      padding: 35px;
+      text-align: center;
+      border-radius: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 5px;
+      height: 110px; }
 
   .feature-mightytips .screen-holder {
     width: 100%;

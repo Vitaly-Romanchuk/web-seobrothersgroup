@@ -677,7 +677,7 @@ body .btn-one:hover {
 }
 .team-block {
   background: #ffffff;
-  box-shadow: 0px 35px 70px rgba(71, 71, 71, 0.04);
+  /* box-shadow: 0px 35px 70px rgba(71, 71, 71, 0.04); */
   border-radius: 10px;
   border: 1px solid #e8e8e8;
 }
@@ -696,7 +696,7 @@ body .btn-one:hover {
   border-radius: 0 0 10px 10px;
 }
 .team-block .team-info .designation-text {
-  font-size: 16px;
+  font-size: 17px;
   display: block;
   color: rgba(0, 0, 0, 0.4);
   line-height: initial;
@@ -2735,12 +2735,12 @@ z-index: 99;
 }
 @media (max-width: 575px) {
   .team-group-carousel .swiper-container {
-    padding-right: 75px;
+    padding-right: 0px;
   }
 }
 @media (max-width: 480px) {
   .team-group-carousel .swiper-container {
-    padding-right: 50px;
+    padding-right: 0px;
   }
 }
 .team-group-carousel .swiper-slide {
