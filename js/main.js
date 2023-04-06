@@ -6,53 +6,30 @@
   };
 
   $(function () {
-    isotopInit();
     slickInit();
     AOS.init();
     AOS.init({ disable: "mobile" });
   });
 
-  function isotopInit() {
-    if ($.exists(".sb-isotop")) {
-      $(".sb-isotop").isotope({
-        itemSelector: ".sb-isotop_item",
-        transitionDuration: "0.60s",
-        percentPosition: true,
-        masonry: {
-          columnWidth: ".sb-grid_sizer",
-        },
-      });
-      /* Active Class of Portfolio*/
-      $(".sb-isotop_filter ul li").on("click", function (event) {
-        $(this).siblings(".active").removeClass("active");
-        $(this).addClass("active");
-        event.preventDefault();
-      });
-      /*=== Portfolio filtering ===*/
-      $(".sb-isotop_filter ul").on("click", "a", function () {
-        var filterElement = $(this).attr("data-filter");
-        $(".sb-isotop").isotope({
-          filter: filterElement,
-        });
-      });
-    }
-  }
 
   (function (i) {
     "use strict";
     i(window).on("load", function () {
       new Swiper(".team-group-carousel .swiper-container", {
+        speed: 2500,
+        autoplay: {
+          delay: 1,
+        },
         slidesPerView: 2,
         spaceBetween: 80,
-        speed: 1e3,
         loop: !0,
         preloadImages: !1,
         lazy: !0,
         breakpoints: {
-          0: { slidesPerView: 1, spaceBetween: 30 },
-          640: { slidesPerView: 1, spaceBetween: 30 },
-          767: { slidesPerView: 2, spaceBetween: 30 },
-          991: { slidesPerView: 2, spaceBetween: 60 },
+          0: { slidesPerView: 1, spaceBetween: 20 },
+          640: { slidesPerView: 1, spaceBetween: 20 },
+          767: { slidesPerView: 3, spaceBetween: 20 },
+          991: { slidesPerView: 4, spaceBetween: 30 },
         },
         on: {
           touchStart: function () {
@@ -74,31 +51,21 @@
   function slickInit() {
     if ($.exists(".bk-slider")) {
       $(".bk-slider").each(function () {
-        // Slick Variable
         var $ts = $(this).find(".bk-slider_container");
         var $slickActive = $(this).find(".bk-slider_wrapper");
-
-        // Auto Play
         var autoPlayVar = parseInt($ts.attr("data-autoplay"), 10);
-        // Auto Play Time Out
         var autoplaySpdVar = 3000;
         if (autoPlayVar > 1) {
           autoplaySpdVar = autoPlayVar;
           autoPlayVar = 1;
         }
-        // Slide Change Speed
         var speedVar = parseInt($ts.attr("data-speed"), 10);
-        // Slider Loop
         var loopVar = Boolean(parseInt($ts.attr("data-loop"), 10));
-        // Slider Center
         var centerVar = Boolean(parseInt($ts.attr("data-center"), 10));
-        // Slider Center
         var variableWidthVar = Boolean(
           parseInt($ts.attr("data-variable-width"), 10)
         );
-        // Pagination
         var paginaiton = $(this).children().hasClass("cs-pagination");
-        // Slide Per View
         var slidesPerView = $ts.attr("data-slides-per-view");
         if (slidesPerView == 1) {
           slidesPerView = 1;
@@ -117,11 +84,6 @@
         // Slick Active Code
         $slickActive.slick({
           autoplay: autoPlayVar,
-          // dots: paginaiton,
-          // centerPadding: '0',
-          // speed: speedVar,
-          // infinite: loopVar,
-          // autoplaySpeed: autoplaySpdVar,
           centerMode: centerVar,
           fade: fadeVar,
           prevArrow: $(this).find(".bk-left_arrow"),
@@ -129,9 +91,7 @@
           appendDots: $(this).find(".bk-pagination"),
           slidesToShow: slidesPerView,
           variableWidth: variableWidthVar,
-          // slidesToScroll: slidesPerView,
-
-          responsive: [
+            responsive: [
             {
               breakpoint: 1600,
               settings: {
@@ -168,12 +128,11 @@
     if (scrolled > 300) $(".go-top").addClass("active");
     if (scrolled < 300) $(".go-top").removeClass("active");
   });
-  // Click Event
   $(".go-top").on("click", function () {
     $("html, body").animate({ scrollTop: "0" }, 500);
   });
 
-  // ------------------------ Навигация скролл: Navigation Scroll
+  // ------------------------ Navigation scroll
   $(window).on("scroll", function () {
     var sticky = $(".sticky-menu"),
       scroll = $(window).scrollTop();
@@ -181,14 +140,12 @@
     else sticky.removeClass("fixed");
   });
 
-
-  //---------------------- Click event to scroll to top
   $(".scroll-top").on("click", function () {
     $("html, body").animate({ scrollTop: 0 });
     return false;
   });
 
-  // -------------------- Remove Placeholder When Focus Or Click
+  // -------------------- Remove Placeholder
   $("input,textarea").each(function () {
     $(this).data("holder", $(this).attr("placeholder"));
     $(this).on("focusin", function () {
@@ -201,8 +158,6 @@
 
   // -------------------- Preloader
   $(window).on("load", function () {
-    // makes sure the whole site is loaded
-
     function handlePreloader() {
       if ($(".preloader").length) {
         $(".preloader").delay(200).fadeOut(500);
@@ -210,7 +165,7 @@
     }
     handlePreloader();
 
-    // ------------ develop sliders -----------
+    // ------------ Develop Sliders -----------
     let SwiperBottom = new Swiper(".develop-slider .swiper-container", {
       spaceBetween: 0,
       centeredSlides: true,
@@ -253,7 +208,7 @@
       if (scrolled < 2000) $(".cookie_disclaimer").removeClass("active");
     });
 
-    // ------------------------------- AOS Animation
+    // ------------------------------- AOS
     if ($("[data-aos]").length) {
       AOS.init({
         duration: 800,
@@ -262,5 +217,5 @@
         offset: 50,
       });
     }
-  }); //End On Load Function
+  }); 
 })(jQuery);
